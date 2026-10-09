@@ -1,0 +1,162 @@
+Total camel bugs: 1293
+Distinct snapshots to process: 149 (of 149 total)
+[1/149] sha=0121737351 bugs=4 java_files=9710 elapsed=9.2s
+[2/149] sha=025640ccb4 UNRESOLVABLE (not in extracted git history) -- 9 bugs skipped
+[3/149] sha=031f4067d0 bugs=36 java_files=9777 elapsed=22.3s
+[4/149] sha=04cbd86fa8 bugs=4 java_files=12128 elapsed=34.0s
+[5/149] sha=08c93c958d UNRESOLVABLE (not in extracted git history) -- 2 bugs skipped
+[6/149] sha=1154fb7635 bugs=29 java_files=12755 elapsed=50.4s
+[7/149] sha=11dc8da54f bugs=30 java_files=1245 elapsed=52.2s
+[8/149] sha=127b8654d5 bugs=11 java_files=9675 elapsed=62.3s
+[9/149] sha=1398cc8e8f UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[10/149] sha=1541a742d1 UNRESOLVABLE (not in extracted git history) -- 5 bugs skipped
+[11/149] sha=17bf191fc4 UNRESOLVABLE (not in extracted git history) -- 3 bugs skipped
+[12/149] sha=18eaa8b9b8 UNRESOLVABLE (not in extracted git history) -- 2 bugs skipped
+[13/149] sha=1a07777487 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[14/149] sha=1b37f8bae1 UNRESOLVABLE (not in extracted git history) -- 3 bugs skipped
+[15/149] sha=1b7c971c4a UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[16/149] sha=20f2898f60 bugs=5 java_files=5709 elapsed=67.9s
+[17/149] sha=246d982d79 bugs=23 java_files=2075 elapsed=70.4s
+[18/149] sha=24bb983c83 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[19/149] sha=25936119f6 bugs=11 java_files=2397 elapsed=73.0s
+[20/149] sha=268d8bc86c bugs=1 java_files=14660 elapsed=87.4s
+[21/149] sha=27105d1ffd bugs=3 java_files=5927 elapsed=93.2s
+[22/149] sha=29a11b8547 bugs=3 java_files=8159 elapsed=100.6s
+[23/149] sha=29e1fe28ff UNRESOLVABLE (not in extracted git history) -- 9 bugs skipped
+[24/149] sha=2a3310822d UNRESOLVABLE (not in extracted git history) -- 4 bugs skipped
+[25/149] sha=2b01740bd7 UNRESOLVABLE (not in extracted git history) -- 3 bugs skipped
+[26/149] sha=2b06753d6b UNRESOLVABLE (not in extracted git history) -- 5 bugs skipped
+[27/149] sha=2b91ed4668 UNRESOLVABLE (not in extracted git history) -- 5 bugs skipped
+[28/149] sha=2c755489d3 UNRESOLVABLE (not in extracted git history) -- 2 bugs skipped
+[29/149] sha=2e137e3386 UNRESOLVABLE (not in extracted git history) -- 4 bugs skipped
+[30/149] sha=2e3960bbc2 bugs=1 java_files=6738 elapsed=106.6s
+[31/149] sha=2fe5d10943 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[32/149] sha=317cd59639 UNRESOLVABLE (not in extracted git history) -- 5 bugs skipped
+[33/149] sha=318bfdee25 UNRESOLVABLE (not in extracted git history) -- 3 bugs skipped
+[34/149] sha=3246f4735c bugs=50 java_files=1515 elapsed=109.3s
+[35/149] sha=344cacf9ea UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[36/149] sha=363777cc93 UNRESOLVABLE (not in extracted git history) -- 4 bugs skipped
+[37/149] sha=363e7e1c93 UNRESOLVABLE (not in extracted git history) -- 2 bugs skipped
+[38/149] sha=36bea62e84 UNRESOLVABLE (not in extracted git history) -- 2 bugs skipped
+[39/149] sha=373a8110ef bugs=25 java_files=10170 elapsed=121.4s
+[40/149] sha=388fee27bb UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[41/149] sha=389a4ea643 bugs=21 java_files=4097 elapsed=126.7s
+[42/149] sha=38e046d246 bugs=3 java_files=6512 elapsed=132.4s
+[43/149] sha=3af6af224c UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[44/149] sha=3b6f72df43 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[45/149] sha=3c09791e37 UNRESOLVABLE (not in extracted git history) -- 7 bugs skipped
+[46/149] sha=41afdf6e24 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[47/149] sha=42de535ac3 bugs=40 java_files=11192 elapsed=148.7s
+[48/149] sha=476d3f9948 bugs=3 java_files=8076 elapsed=156.5s
+[49/149] sha=4942374172 UNRESOLVABLE (not in extracted git history) -- 3 bugs skipped
+[50/149] sha=4a0282b413 bugs=1 java_files=7120 elapsed=162.8s
+[51/149] sha=4b135cbc25 UNRESOLVABLE (not in extracted git history) -- 3 bugs skipped
+[52/149] sha=4d5ad0e795 bugs=18 java_files=941 elapsed=164.1s
+[53/149] sha=52049de85a bugs=5 java_files=686 elapsed=164.8s
+[54/149] sha=52ef69cb6c bugs=18 java_files=11959 elapsed=178.5s
+[55/149] sha=545627aaf1 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[56/149] sha=5475e74a86 bugs=2 java_files=8970 elapsed=187.1s
+[57/149] sha=54abda5aa2 UNRESOLVABLE (not in extracted git history) -- 6 bugs skipped
+[58/149] sha=551357dac4 UNRESOLVABLE (not in extracted git history) -- 3 bugs skipped
+[59/149] sha=5a32be6497 bugs=19 java_files=12717 elapsed=202.5s
+[60/149] sha=5e808bef80 bugs=33 java_files=9860 elapsed=216.3s
+[61/149] sha=609347c52c bugs=1 java_files=14675 elapsed=231.0s
+[62/149] sha=62ef0198c6 UNRESOLVABLE (not in extracted git history) -- 8 bugs skipped
+[63/149] sha=65d603ddf4 UNRESOLVABLE (not in extracted git history) -- 2 bugs skipped
+[64/149] sha=66736471db UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[65/149] sha=6ab7d292c2 bugs=2 java_files=12157 elapsed=243.2s
+[66/149] sha=6c88ad61b7 bugs=56 java_files=3127 elapsed=248.9s
+[67/149] sha=6cb00233e8 bugs=1 java_files=16319 elapsed=266.1s
+[68/149] sha=6d7eacbab8 bugs=21 java_files=1987 elapsed=268.6s
+[69/149] sha=6ffed9f0b5 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[70/149] sha=70ce4a94f2 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[71/149] sha=757bc836d1 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[72/149] sha=77ae2991cd UNRESOLVABLE (not in extracted git history) -- 4 bugs skipped
+[73/149] sha=785698d28a UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[74/149] sha=78ebec3138 bugs=1 java_files=7290 elapsed=275.2s
+[75/149] sha=7f96e2e248 UNRESOLVABLE (not in extracted git history) -- 6 bugs skipped
+[76/149] sha=82c9157395 bugs=2 java_files=10237 elapsed=285.1s
+[77/149] sha=835cd243c5 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[78/149] sha=85f679b8ef UNRESOLVABLE (not in extracted git history) -- 7 bugs skipped
+[79/149] sha=86f99c9d20 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[80/149] sha=8861921a39 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[81/149] sha=89937eb413 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[82/149] sha=8a2e184534 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[83/149] sha=8a471f4432 bugs=29 java_files=4660 elapsed=291.1s
+[84/149] sha=8d135894cd UNRESOLVABLE (not in extracted git history) -- 6 bugs skipped
+[85/149] sha=8f8ef99538 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[86/149] sha=901f3d9b01 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[87/149] sha=9229fe95c4 bugs=18 java_files=9910 elapsed=302.1s
+[88/149] sha=9636f69dd4 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[89/149] sha=9845ce208e UNRESOLVABLE (not in extracted git history) -- 3 bugs skipped
+[90/149] sha=9904d7fce6 UNRESOLVABLE (not in extracted git history) -- 2 bugs skipped
+[91/149] sha=996f224e95 UNRESOLVABLE (not in extracted git history) -- 6 bugs skipped
+[92/149] sha=99b5784e1f bugs=1 java_files=8846 elapsed=310.1s
+[93/149] sha=9b28021524 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[94/149] sha=9d5fd0d120 bugs=3 java_files=6483 elapsed=315.9s
+[95/149] sha=a1188ec852 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[96/149] sha=a150a28345 bugs=4 java_files=9024 elapsed=324.2s
+[97/149] sha=a17d4ee38c UNRESOLVABLE (not in extracted git history) -- 2 bugs skipped
+[98/149] sha=a57ab48a87 bugs=13 java_files=2813 elapsed=327.6s
+[99/149] sha=aa243e962f UNRESOLVABLE (not in extracted git history) -- 2 bugs skipped
+[100/149] sha=aab0e881d9 UNRESOLVABLE (not in extracted git history) -- 5 bugs skipped
+[101/149] sha=ac11f88de7 UNRESOLVABLE (not in extracted git history) -- 9 bugs skipped
+[102/149] sha=af7064e6c1 bugs=15 java_files=13597 elapsed=343.6s
+[103/149] sha=b0ae1902de UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[104/149] sha=b1f8e1d3cd bugs=16 java_files=10206 elapsed=354.7s
+[105/149] sha=b23d4f3ec7 bugs=16 java_files=12105 elapsed=368.8s
+[106/149] sha=b24c1f9647 bugs=2 java_files=6628 elapsed=374.8s
+[107/149] sha=b48592912d UNRESOLVABLE (not in extracted git history) -- 3 bugs skipped
+[108/149] sha=b58c47812c UNRESOLVABLE (not in extracted git history) -- 2 bugs skipped
+[109/149] sha=b64d1814ec bugs=19 java_files=10159 elapsed=386.8s
+[110/149] sha=b665e5cf4b UNRESOLVABLE (not in extracted git history) -- 3 bugs skipped
+[111/149] sha=b7d934f8c3 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[112/149] sha=b877a280fd bugs=11 java_files=2959 elapsed=390.7s
+[113/149] sha=b8b56b44bc bugs=4 java_files=12135 elapsed=402.2s
+[114/149] sha=bb4dc2ba78 bugs=3 java_files=2170 elapsed=404.2s
+[115/149] sha=bc487f3f16 UNRESOLVABLE (not in extracted git history) -- 2 bugs skipped
+[116/149] sha=bd1cafcc32 bugs=1 java_files=7401 elapsed=410.7s
+[117/149] sha=bf9c1455bd bugs=10 java_files=13588 elapsed=423.9s
+[118/149] sha=c0edeeb38a bugs=18 java_files=11248 elapsed=438.0s
+[119/149] sha=c13c4c115f bugs=28 java_files=3814 elapsed=443.5s
+[120/149] sha=c3d54e2ff5 bugs=23 java_files=13568 elapsed=461.4s
+[121/149] sha=c4376c9ed7 bugs=3 java_files=9011 elapsed=470.2s
+[122/149] sha=ccf252ea62 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[123/149] sha=ce48fd1422 bugs=39 java_files=5301 elapsed=477.7s
+[124/149] sha=cf2e1749fa bugs=26 java_files=13517 elapsed=494.5s
+[125/149] sha=d0acf8d360 UNRESOLVABLE (not in extracted git history) -- 6 bugs skipped
+[126/149] sha=d373c4c321 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[127/149] sha=d3ccbb6989 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[128/149] sha=d57ffb8acb UNRESOLVABLE (not in extracted git history) -- 3 bugs skipped
+[129/149] sha=d6232e111c bugs=1 java_files=8136 elapsed=501.8s
+[130/149] sha=da4c2562d5 UNRESOLVABLE (not in extracted git history) -- 2 bugs skipped
+[131/149] sha=da8694f8c5 bugs=21 java_files=14522 elapsed=521.1s
+[132/149] sha=db3d4b8048 UNRESOLVABLE (not in extracted git history) -- 5 bugs skipped
+[133/149] sha=dd691214b6 bugs=50 java_files=11130 elapsed=539.1s
+[134/149] sha=dedf656c75 UNRESOLVABLE (not in extracted git history) -- 6 bugs skipped
+[135/149] sha=e102036b43 UNRESOLVABLE (not in extracted git history) -- 2 bugs skipped
+[136/149] sha=e14a305b76 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[137/149] sha=e18459e53c bugs=22 java_files=11983 elapsed=553.3s
+[138/149] sha=e6309f2a43 bugs=9 java_files=12800 elapsed=566.2s
+[139/149] sha=e6675aaf85 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[140/149] sha=e6a908507d UNRESOLVABLE (not in extracted git history) -- 5 bugs skipped
+[141/149] sha=ec5e558a70 bugs=22 java_files=10118 elapsed=578.9s
+[142/149] sha=f14890f88d bugs=17 java_files=12717 elapsed=593.1s
+[143/149] sha=f27cda0a7a bugs=43 java_files=12014 elapsed=612.1s
+[144/149] sha=f2863edcfe bugs=50 java_files=4951 elapsed=619.5s
+[145/149] sha=f46778d88f bugs=6 java_files=11275 elapsed=630.2s
+[146/149] sha=f5cba202e7 UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[147/149] sha=fa2a3c885e UNRESOLVABLE (not in extracted git history) -- 1 bugs skipped
+[148/149] sha=faae87b41f UNRESOLVABLE (not in extracted git history) -- 3 bugs skipped
+[149/149] sha=feed6f962a bugs=34 java_files=1842 elapsed=632.9s
+
+Total bugs evaluated: 1060
+Unresolvable snapshots: 83 covering 233 bugs
+GT resolution failures (GT path not found in extracted snapshot at all): 0
+Hit@1=0.2358
+Hit@5=0.4575
+Hit@10=0.5679
+MRR=0.3446
+TREC_MAP=0.2599
+GTRecall@10=0.4166
+Saved to /Users/ersahinm/Desktop/buglocalization/paper/q1_strengthening/final_closure/bluir_per_bug_results_camel_full.json

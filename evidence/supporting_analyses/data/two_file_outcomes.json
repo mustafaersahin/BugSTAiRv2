@@ -1,0 +1,9 @@
+{
+  "('ABSENT_BOTH', 'ABSENT_BOTH')": 342,
+  "('STABLE', 'STABLE')": 961,
+  "('PROMOTED', 'STABLE')": 139,
+  "('ABSENT_BOTH', 'STABLE')": 509,
+  "('DISPLACED', 'DISPLACED')": 38,
+  "('PROMOTED', 'PROMOTED')": 19,
+  "('DISPLACED', 'STABLE')": 211
+}

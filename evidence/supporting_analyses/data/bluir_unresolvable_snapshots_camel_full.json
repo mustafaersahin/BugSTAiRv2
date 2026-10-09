@@ -1,0 +1,733 @@
+[
+  {
+    "sha": "025640ccb468f9426f078025b2e00ce7010f7715",
+    "n_bugs": 9,
+    "dataset_indices": [
+      6121,
+      6226,
+      6227,
+      6230,
+      6231,
+      6232,
+      6233,
+      6235,
+      6237
+    ]
+  },
+  {
+    "sha": "08c93c958de7ed62bc011da933681188da0e18c4",
+    "n_bugs": 2,
+    "dataset_indices": [
+      6223,
+      6234
+    ]
+  },
+  {
+    "sha": "1398cc8e8f58b2bf5c9e9a7f8dffd113ae290d88",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6391
+    ]
+  },
+  {
+    "sha": "1541a742d1fa2633ee2251eeea72904f3447c8f5",
+    "n_bugs": 5,
+    "dataset_indices": [
+      6252,
+      6254,
+      6257,
+      6263,
+      6277
+    ]
+  },
+  {
+    "sha": "17bf191fc470361b6e85f1a449f4edad5c364a19",
+    "n_bugs": 3,
+    "dataset_indices": [
+      6110,
+      6122,
+      6124
+    ]
+  },
+  {
+    "sha": "18eaa8b9b8cc5795fcf6c886f3cf3931b9058ae8",
+    "n_bugs": 2,
+    "dataset_indices": [
+      6248,
+      6251
+    ]
+  },
+  {
+    "sha": "1a07777487d5c6f61e9479c249d5f202f3323c20",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6096
+    ]
+  },
+  {
+    "sha": "1b37f8bae1368db69d4ddf397f719bc7c1d39925",
+    "n_bugs": 3,
+    "dataset_indices": [
+      6292,
+      6375,
+      6377
+    ]
+  },
+  {
+    "sha": "1b7c971c4a45dd85988b3b6f0a8bceabb6ee7796",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6409
+    ]
+  },
+  {
+    "sha": "24bb983c83b780131dbe0426f70ff51addc141e8",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6082
+    ]
+  },
+  {
+    "sha": "29e1fe28ffabeccea29ad4246f10ba793f490150",
+    "n_bugs": 9,
+    "dataset_indices": [
+      6285,
+      6287,
+      6288,
+      6294,
+      6296,
+      6298,
+      6302,
+      6303,
+      6306
+    ]
+  },
+  {
+    "sha": "2a3310822da3f1992083e206b68af3172fcd3792",
+    "n_bugs": 4,
+    "dataset_indices": [
+      6449,
+      6457,
+      6461,
+      6462
+    ]
+  },
+  {
+    "sha": "2b01740bd788d28ccd2ef961b308a390dc8334a1",
+    "n_bugs": 3,
+    "dataset_indices": [
+      6133,
+      6139,
+      6144
+    ]
+  },
+  {
+    "sha": "2b06753d6bef79b52e09cd1b6270ec64458ad62a",
+    "n_bugs": 5,
+    "dataset_indices": [
+      6149,
+      6159,
+      6162,
+      6165,
+      6172
+    ]
+  },
+  {
+    "sha": "2b91ed466835c8fdc7dbc710aadb1d23e0b62c62",
+    "n_bugs": 5,
+    "dataset_indices": [
+      6191,
+      6193,
+      6197,
+      6198,
+      6200
+    ]
+  },
+  {
+    "sha": "2c755489d39e84034f8300ecfc57a3772561ac0c",
+    "n_bugs": 2,
+    "dataset_indices": [
+      6202,
+      6213
+    ]
+  },
+  {
+    "sha": "2e137e3386d32a59d1ba86bfbc1883b164797300",
+    "n_bugs": 4,
+    "dataset_indices": [
+      6368,
+      6376,
+      6380,
+      6383
+    ]
+  },
+  {
+    "sha": "2fe5d10943c250b6d1431d7b1346498e505be303",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6266
+    ]
+  },
+  {
+    "sha": "317cd59639739d674a03b2ca9fc3b05570bd1dbc",
+    "n_bugs": 5,
+    "dataset_indices": [
+      6127,
+      6218,
+      6222,
+      6224,
+      6225
+    ]
+  },
+  {
+    "sha": "318bfdee255d718ee1fea601c2d1bc7951571776",
+    "n_bugs": 3,
+    "dataset_indices": [
+      6167,
+      6173,
+      6176
+    ]
+  },
+  {
+    "sha": "344cacf9ea0afec8639e901868202767d2b66ce3",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6093
+    ]
+  },
+  {
+    "sha": "363777cc93ab6072cd12d2a231c2165cbc6c0524",
+    "n_bugs": 4,
+    "dataset_indices": [
+      6434,
+      6448,
+      6450,
+      6451
+    ]
+  },
+  {
+    "sha": "363e7e1c93f61e23cdae808f2180908169c78f6e",
+    "n_bugs": 2,
+    "dataset_indices": [
+      6102,
+      6104
+    ]
+  },
+  {
+    "sha": "36bea62e844c5037b8c4d9e0eab5cc6b189fe1da",
+    "n_bugs": 2,
+    "dataset_indices": [
+      6416,
+      6425
+    ]
+  },
+  {
+    "sha": "388fee27bb150b6cc0582ce5202cf87a6ccae43d",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6361
+    ]
+  },
+  {
+    "sha": "3af6af224c3dbaf1970903c9932ca2165ef0b173",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6279
+    ]
+  },
+  {
+    "sha": "3b6f72df432e452d2233c213e0a925e1271348f2",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6099
+    ]
+  },
+  {
+    "sha": "3c09791e376678cdb95f85d3cac625385e0f7b01",
+    "n_bugs": 7,
+    "dataset_indices": [
+      6182,
+      6183,
+      6184,
+      6186,
+      6187,
+      6188,
+      6190
+    ]
+  },
+  {
+    "sha": "41afdf6e2439f37684055943105379d74bc0488f",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6095
+    ]
+  },
+  {
+    "sha": "494237417219c3411cd6da582e15ee02b9f23641",
+    "n_bugs": 3,
+    "dataset_indices": [
+      6083,
+      6098,
+      6100
+    ]
+  },
+  {
+    "sha": "4b135cbc2548dee00c49cd3caf7f8d5ac3e2e0c7",
+    "n_bugs": 3,
+    "dataset_indices": [
+      6392,
+      6393,
+      6395
+    ]
+  },
+  {
+    "sha": "545627aaf16cc13ce72c09e2e2b10d94f7bc8f98",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6262
+    ]
+  },
+  {
+    "sha": "54abda5aa2ede3878028e1270eb52ae278e6aa35",
+    "n_bugs": 6,
+    "dataset_indices": [
+      6316,
+      6318,
+      6326,
+      6327,
+      6328,
+      6329
+    ]
+  },
+  {
+    "sha": "551357dac466c8d6e11c5d9721361a956255d9f1",
+    "n_bugs": 3,
+    "dataset_indices": [
+      6207,
+      6215,
+      6221
+    ]
+  },
+  {
+    "sha": "62ef0198c65d95a55ce6e218cd49ba110fc9306c",
+    "n_bugs": 8,
+    "dataset_indices": [
+      6289,
+      6291,
+      6305,
+      6311,
+      6312,
+      6314,
+      6321,
+      6323
+    ]
+  },
+  {
+    "sha": "65d603ddf448e8450dbe4c86abd2bed475c451c5",
+    "n_bugs": 2,
+    "dataset_indices": [
+      6430,
+      6443
+    ]
+  },
+  {
+    "sha": "66736471db8ddc22e50cc31c87d34b072455b488",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6080
+    ]
+  },
+  {
+    "sha": "6ffed9f0b50a2629309ed02a5c076f753067fafe",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6101
+    ]
+  },
+  {
+    "sha": "70ce4a94f27e961bbc9f0f7ddff583da884a5836",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6240
+    ]
+  },
+  {
+    "sha": "757bc836d1d9ed11d11de73c5dc72fc53617d6a0",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6413
+    ]
+  },
+  {
+    "sha": "77ae2991cd198ef1b5f4d6ac8c57bcba031f6d98",
+    "n_bugs": 4,
+    "dataset_indices": [
+      6351,
+      6352,
+      6353,
+      6357
+    ]
+  },
+  {
+    "sha": "785698d28a9e3f8c9bb1eec9dc7c3393a87f83e0",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6385
+    ]
+  },
+  {
+    "sha": "7f96e2e248cc52a8d3c5899e50bbfe71427c69d4",
+    "n_bugs": 6,
+    "dataset_indices": [
+      6334,
+      6344,
+      6347,
+      6348,
+      6349,
+      6350
+    ]
+  },
+  {
+    "sha": "835cd243c525f28bf84c9945f9ca80bf7725705d",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6260
+    ]
+  },
+  {
+    "sha": "85f679b8ef5ff6f2de222741bc4512b7a52dfb12",
+    "n_bugs": 7,
+    "dataset_indices": [
+      6309,
+      6332,
+      6333,
+      6335,
+      6336,
+      6337,
+      6338
+    ]
+  },
+  {
+    "sha": "86f99c9d20bf27870784baaff76df5a80e929a13",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6354
+    ]
+  },
+  {
+    "sha": "8861921a39d964440ed1a42d113f4d983aaef605",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6128
+    ]
+  },
+  {
+    "sha": "89937eb413852e07a13cf433150571c463a48a8e",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6300
+    ]
+  },
+  {
+    "sha": "8a2e1845341429f513acd99bfe999d1877be324d",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6105
+    ]
+  },
+  {
+    "sha": "8d135894cd73970c82da5da0dc71ecc7f5521ad5",
+    "n_bugs": 6,
+    "dataset_indices": [
+      6108,
+      6109,
+      6111,
+      6113,
+      6116,
+      6131
+    ]
+  },
+  {
+    "sha": "8f8ef99538021c889adf20ca2fa9bf35c7977e03",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6132
+    ]
+  },
+  {
+    "sha": "901f3d9b0170fed54bd991d0d58ce644e705083c",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6178
+    ]
+  },
+  {
+    "sha": "9636f69dd42c5b01052875f960fb05d2edc4a8a9",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6358
+    ]
+  },
+  {
+    "sha": "9845ce208e9bb672a11379d5089e1e11f802306a",
+    "n_bugs": 3,
+    "dataset_indices": [
+      6388,
+      6389,
+      6390
+    ]
+  },
+  {
+    "sha": "9904d7fce6a1d69159e9313a69268a622fbc09f0",
+    "n_bugs": 2,
+    "dataset_indices": [
+      6140,
+      6142
+    ]
+  },
+  {
+    "sha": "996f224e95664deafa3a3e4345568e63ae3ba667",
+    "n_bugs": 6,
+    "dataset_indices": [
+      6267,
+      6272,
+      6275,
+      6282,
+      6283,
+      6284
+    ]
+  },
+  {
+    "sha": "9b28021524439b9ff689e782ad99fcdada5a63bd",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6148
+    ]
+  },
+  {
+    "sha": "a1188ec85214ec83f2b1a164342c59b7ac029c1b",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6125
+    ]
+  },
+  {
+    "sha": "a17d4ee38cf31e03f6031eb45fbe47aabe39142b",
+    "n_bugs": 2,
+    "dataset_indices": [
+      6103,
+      6107
+    ]
+  },
+  {
+    "sha": "aa243e962ffc34122650156305ff6f04aa6c1a7b",
+    "n_bugs": 2,
+    "dataset_indices": [
+      6154,
+      6156
+    ]
+  },
+  {
+    "sha": "aab0e881d960959cce968804cc269fa38dd1aae5",
+    "n_bugs": 5,
+    "dataset_indices": [
+      6085,
+      6089,
+      6090,
+      6091,
+      6092
+    ]
+  },
+  {
+    "sha": "ac11f88de7594232c3c28532a19377764665ce13",
+    "n_bugs": 9,
+    "dataset_indices": [
+      6363,
+      6364,
+      6366,
+      6369,
+      6372,
+      6373,
+      6374,
+      6384,
+      6387
+    ]
+  },
+  {
+    "sha": "b0ae1902de59a47b1c2f3d8cb878e89db025110f",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6138
+    ]
+  },
+  {
+    "sha": "b48592912d97821fed9d41ec30affebb475d7ec1",
+    "n_bugs": 3,
+    "dataset_indices": [
+      6145,
+      6152,
+      6153
+    ]
+  },
+  {
+    "sha": "b58c47812cb5b1b9e2dec256558140c603f20308",
+    "n_bugs": 2,
+    "dataset_indices": [
+      6175,
+      6179
+    ]
+  },
+  {
+    "sha": "b665e5cf4b47f9b074bea40c86a5133f0db00454",
+    "n_bugs": 3,
+    "dataset_indices": [
+      6341,
+      6342,
+      6345
+    ]
+  },
+  {
+    "sha": "b7d934f8c3c434939126f41dffcab0d3903bda8b",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6130
+    ]
+  },
+  {
+    "sha": "bc487f3f1645702e0ac9329bdb30b380a0380f7d",
+    "n_bugs": 2,
+    "dataset_indices": [
+      6204,
+      6210
+    ]
+  },
+  {
+    "sha": "ccf252ea6274c96289f38dd143dbe37544fac0a1",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6126
+    ]
+  },
+  {
+    "sha": "d0acf8d36004425b4fcdd047d5c9454a41764437",
+    "n_bugs": 6,
+    "dataset_indices": [
+      6398,
+      6432,
+      6436,
+      6439,
+      6440,
+      6442
+    ]
+  },
+  {
+    "sha": "d373c4c321ad45a949b568d5503e80a3cc486518",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6365
+    ]
+  },
+  {
+    "sha": "d3ccbb69898ffed4cb02f9f3727fe31729ffb994",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6229
+    ]
+  },
+  {
+    "sha": "d57ffb8acbfbfaf1880587bf77fa44d2db052f48",
+    "n_bugs": 3,
+    "dataset_indices": [
+      6086,
+      6087,
+      6088
+    ]
+  },
+  {
+    "sha": "da4c2562d54989ef43e215321b226bb358d2e3c8",
+    "n_bugs": 2,
+    "dataset_indices": [
+      6403,
+      6405
+    ]
+  },
+  {
+    "sha": "db3d4b8048daab55f346fe41c605f8a36d555de9",
+    "n_bugs": 5,
+    "dataset_indices": [
+      6205,
+      6206,
+      6209,
+      6212,
+      6214
+    ]
+  },
+  {
+    "sha": "dedf656c7526ab6189519f0733e25ed3fed369f7",
+    "n_bugs": 6,
+    "dataset_indices": [
+      6444,
+      6454,
+      6455,
+      6456,
+      6459,
+      6460
+    ]
+  },
+  {
+    "sha": "e102036b43100f4b82276013af0414e2008982c4",
+    "n_bugs": 2,
+    "dataset_indices": [
+      6242,
+      6253
+    ]
+  },
+  {
+    "sha": "e14a305b76b121c054596321c84d2adc18b33536",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6339
+    ]
+  },
+  {
+    "sha": "e6675aaf8506e2eb5c05637fb16c5c03aa0922f0",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6117
+    ]
+  },
+  {
+    "sha": "e6a908507df14801ee44a527c6f1b2b84c49d143",
+    "n_bugs": 5,
+    "dataset_indices": [
+      6407,
+      6412,
+      6417,
+      6419,
+      6420
+    ]
+  },
+  {
+    "sha": "f5cba202e7ec360594bec02cc0b783439d6994ca",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6258
+    ]
+  },
+  {
+    "sha": "fa2a3c885e621014e1d54663b141b9f10b1299a4",
+    "n_bugs": 1,
+    "dataset_indices": [
+      6360
+    ]
+  },
+  {
+    "sha": "faae87b41f77f9810ffeab01eaf68c6f0576611b",
+    "n_bugs": 3,
+    "dataset_indices": [
+      6135,
+      6136,
+      6137
+    ]
+  }
+]

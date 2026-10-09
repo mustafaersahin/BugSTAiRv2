@@ -1,0 +1,43 @@
+{
+  "kind": "stage_c_final_h_vs_hsr_metrics",
+  "n": 7023,
+  "evaluable_cohort_fingerprint": "c0ff7833c0013b08",
+  "final_dataset_sha256": "49b93045c818998581112e95c654d4d0e73981518869be40a40a07f8845bc1bc",
+  "method_config_fingerprint": "fe49e22f15332e17",
+  "execution_order_fingerprint": "d25c86d1509e2fdd",
+  "hybrid_sha256": "7f969ca9c2d8d291b4556d74b554a748053d847f8ef897575bd762fa0c0cf676",
+  "prediction_freeze_sha256": "28c84c1955d0a7e82326b91fcb32aaa82bd0fe65d3b2273cc0f186f0a0594301",
+  "completeness_fingerprint": "94da7feacced9d1d",
+  "H": {
+    "hit_at_1": 0.4304428306991314,
+    "hit_at_5": 0.7045422184251744,
+    "hit_at_10": 0.7933931368361099,
+    "mrr": 0.5537504774209842,
+    "trec_map": 0.4537703856272125,
+    "iqloc_package_map": 0.46459242690364716
+  },
+  "H_SR": {
+    "hit_at_1": 0.45464901039441835,
+    "hit_at_5": 0.7216289335042004,
+    "hit_at_10": 0.8035027765912004,
+    "mrr": 0.5749266952214641,
+    "trec_map": 0.4622719467896823,
+    "iqloc_package_map": 0.4825474708971206
+  },
+  "delta_HSR_minus_H": {
+    "hit_at_1": 0.024206179695286933,
+    "hit_at_5": 0.017086715079026038,
+    "hit_at_10": 0.010109639755090494,
+    "mrr": 0.021176217800479957,
+    "trec_map": 0.008501561162469806,
+    "iqloc_package_map": 0.01795504399347342
+  },
+  "rank_change_counts": {
+    "improved": 1987,
+    "unchanged": 4235,
+    "degraded": 801
+  },
+  "gt_evaluation_unlocked_after_prediction_freeze": true,
+  "not_exact_table10": true,
+  "generated_at_utc": "2026-08-31T08:11:41.281757+00:00"
+}
