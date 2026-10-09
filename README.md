@@ -8,6 +8,7 @@ The study compares lexical (BM25), dense, hybrid, and semantically reranked (H+S
 
 | Path | Description |
 |---|---|
+| `data/cohort/cohort_7023.csv` | The 7,023 bugs of the primary cohort: project, sub project, bug identifier, affected and fixed versions, repository, commit before the fix, and number of relevant files. |
 | `data/rankings/` | Per-bug rankings (to depth 200) of BM25, dense (Jina), and hybrid (RRF, k=60) retrieval, with resolved ground truth files. One JSON record per bug, gzip compressed. |
 | `data/h_sr/` | Per-bug H+SR predictions (reranked top 100 of H), execution provenance, a per-instance comparison of H and H+SR, and summary metrics. |
 | `evidence/raw_artifact_recomputation/` | Independent recomputation of all reported metrics and of the file transition, file type, and two file analyses from the raw rankings and predictions (documents, outputs in `data/`, scripts in `scripts/`). |
@@ -24,6 +25,7 @@ The study compares lexical (BM25), dense, hybrid, and semantically reranked (H+S
 
 ## Notes
 
+- The bug report texts (title and description) and the source code snapshots are not redistributed here. The cohort table identifies every bug, so the reports can be taken from the public IQLoc release (Bench4BLExtended) and the snapshots from the listed commits.
 - The benchmark data (Bench4BL and the IQLoc release) and the source code repositories of the studied projects are not included. They remain subject to their original licenses and distribution terms.
 
 ## License
