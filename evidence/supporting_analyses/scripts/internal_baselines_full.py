@@ -5,9 +5,13 @@ H+SR is NOT included here (no raw per-bug predictions available for N=7023 -- se
 import json
 from pathlib import Path
 from collections import defaultdict
+import os
+from pathlib import Path as _P
+REPO_ROOT = _P(__file__).resolve().parents[3]
+EXTERNAL = _P(os.environ.get("BUGSTAIR_RESEARCH_REPO", REPO_ROOT.parent / "bug-localization-main-final"))
 
-REPO = Path("/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/results/iqloc_author_final_7483/rankings")
-OUT_DIR = Path("/Users/ersahinm/Desktop/buglocalization/BugResearch/evidence/supporting_analyses/data")
+REPO = REPO_ROOT / "data" / "rankings"
+OUT_DIR = Path(__file__).resolve().parents[1] / "data"
 
 def load_jsonl(path):
     with open(path) as f:

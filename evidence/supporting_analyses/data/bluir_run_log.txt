@@ -159,4 +159,4 @@ Hit@10=0.5679
 MRR=0.3446
 TREC_MAP=0.2599
 GTRecall@10=0.4166
-Saved to /Users/ersahinm/Desktop/buglocalization/paper/q1_strengthening/final_closure/bluir_per_bug_results_camel_full.json
+Saved to <project>/paper/q1_strengthening/final_closure/bluir_per_bug_results_camel_full.json

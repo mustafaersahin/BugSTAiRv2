@@ -9,11 +9,14 @@ import math
 from pathlib import Path
 from collections import defaultdict, Counter
 import numpy as np
+import os
+from pathlib import Path as _P
+REPO_ROOT = _P(__file__).resolve().parents[3]
+EXTERNAL = _P(os.environ.get("BUGSTAIR_RESEARCH_REPO", REPO_ROOT.parent / "bug-localization-main-final"))
 
-ROOT = Path("/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/results")
-RANKINGS = ROOT / "iqloc_author_final_7483/rankings"
-HSR_PRED = ROOT / "iqloc_author_final_7483/stage_c/final_hsr_n7023/predictions/final_hsr_predictions.jsonl"
-OUT = Path("/Users/ersahinm/Desktop/buglocalization/BugResearch/evidence/raw_artifact_recomputation/data")
+RANKINGS = REPO_ROOT / "data" / "rankings"
+HSR_PRED = REPO_ROOT / "data" / "h_sr" / "final_hsr_predictions.jsonl"
+OUT = Path(__file__).resolve().parents[1] / "data"
 OUT.mkdir(parents=True, exist_ok=True)
 
 

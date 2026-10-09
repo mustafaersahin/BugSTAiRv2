@@ -6,8 +6,12 @@ method/iqloc_metrics.py, to serve as a true independent check on those modules t
 """
 import json, sys
 from pathlib import Path
+import os
+from pathlib import Path as _P
+REPO_ROOT = _P(__file__).resolve().parents[3]
+EXTERNAL = _P(os.environ.get("BUGSTAIR_RESEARCH_REPO", REPO_ROOT.parent / "bug-localization-main-final"))
 
-REPO = Path("/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/results/iqloc_author_final_7483/rankings")
+REPO = REPO_ROOT / "data" / "rankings"
 
 def load_jsonl(path):
     with open(path) as f:
@@ -83,6 +87,6 @@ for fname, label in [("bm25_records.jsonl", "BM25 (independently recomputed)"),
     recs = load_jsonl(REPO / fname)
     results[label] = evaluate(recs, label)
 
-out_path = Path("/Users/ersahinm/Desktop/buglocalization/BugResearch/evidence/supporting_analyses/data/recomputed_retrieval_metrics.json")
+out_path = Path(__file__).resolve().parents[1] / "data" / "recomputed_retrieval_metrics.json"
 out_path.write_text(json.dumps(results, indent=2))
 print(f"Saved to {out_path}")

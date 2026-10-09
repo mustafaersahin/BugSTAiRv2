@@ -10,10 +10,13 @@ is not physically present in this local copy (see hsr_artifact_verification.md).
 """
 import json
 from pathlib import Path
+import os
+from pathlib import Path as _P
+REPO_ROOT = _P(__file__).resolve().parents[3]
+EXTERNAL = _P(os.environ.get("BUGSTAIR_RESEARCH_REPO", REPO_ROOT.parent / "bug-localization-main-final"))
 
-ROOT = Path("/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/results")
-RANKINGS = ROOT / "iqloc_author_final_7483/rankings"
-OUT = Path("/Users/ersahinm/Desktop/buglocalization/BugResearch/evidence/raw_artifact_recomputation/data")
+RANKINGS = REPO_ROOT / "data" / "rankings"
+OUT = Path(__file__).resolve().parents[1] / "data"
 
 
 def load_jsonl(path):

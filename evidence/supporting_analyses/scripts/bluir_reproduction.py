@@ -16,11 +16,16 @@ to produce the final per-file score.
 import json, math, re, subprocess, tempfile, shutil, os, sys, time
 from pathlib import Path
 from collections import Counter, defaultdict
+import os
+from pathlib import Path as _P
+REPO_ROOT = _P(__file__).resolve().parents[3]
+EXTERNAL = _P(os.environ.get("BUGSTAIR_RESEARCH_REPO", REPO_ROOT.parent / "bug-localization-main-final"))
 
-GITDIR = "/private/tmp/claude-839952224/-Users-ersahinm-Projects-StudioWorkspace/0a46f74f-599d-49b4-9870-b58edb91f24b/scratchpad/blur_repro/camel_git/gitrepo/.git"
-RANKINGS_DIR = Path("/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/results/iqloc_author_final_7483/rankings")
-OUT_DIR = Path("/Users/ersahinm/Desktop/buglocalization/BugResearch/evidence/supporting_analyses/data")
-TMP_WORK = Path("/private/tmp/claude-839952224/-Users-ersahinm-Projects-StudioWorkspace/0a46f74f-599d-49b4-9870-b58edb91f24b/scratchpad/blur_repro/work")
+GITDIR = os.environ.get("BUGSTAIR_CAMEL_GITDIR", "")  # .git directory of the archived Bench4BL Apache Camel history
+RANKINGS_DIR = REPO_ROOT / "data" / "rankings"
+OUT_DIR = Path(__file__).resolve().parents[1] / "data"
+import tempfile
+TMP_WORK = Path(os.environ.get("BUGSTAIR_WORKDIR", tempfile.gettempdir())) / "bugstair_bluir_work"
 
 # --- field extraction (independent reimplementation, not importing BugSTAiR's code) ---
 CLASS_RE = re.compile(r"\b(?:class|interface|enum)\s+([A-Za-z_][A-Za-z0-9_]*)")
@@ -107,7 +112,7 @@ def blur_rank(query_tokens, corpus_fields):
     return ranked
 
 # --- main pipeline ---
-EXT_DATASET_PATH = "/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/data/iqloc/author_repository/IQLoc/Dataset/Bench4BLExtended.json"
+EXT_DATASET_PATH = str(EXTERNAL / "data" / "iqloc/author_repository/IQLoc/Dataset/Bench4BLExtended.json")
 
 def load_camel_bugs():
     with open(RANKINGS_DIR / "bm25_records.jsonl") as f:

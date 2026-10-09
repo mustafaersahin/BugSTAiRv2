@@ -1,6 +1,6 @@
 # Step 1 — H+SR Artifact Verification
 
-**Directory searched:** `/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/` (the full working repository, 10 GB, newly available locally as of this session — previously this data existed only on MareNostrum 5, project `ehpc680`).
+**Directory searched:** `<research repo>/` (the full working repository, 10 GB, newly available locally as of this session — previously this data existed only on MareNostrum 5, project `ehpc680`).
 
 ## Finding, stated plainly first
 

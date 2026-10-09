@@ -142,6 +142,6 @@ for i, (color, text) in enumerate(legend_items):
 
 svg.append('</svg>')
 
-with open("/Users/ersahinm/Desktop/buglocalization/BugResearch/figures_src/fig2_transitions.svg", "w") as f:
+with open(str(__import__("pathlib").Path(__file__).resolve().parent / "fig2_transitions.svg"), "w") as f:
     f.write("\n".join(svg))
 print("written")

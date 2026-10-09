@@ -5,10 +5,14 @@ resolving the Phase 10 gap)."""
 import json, math
 from pathlib import Path
 from collections import defaultdict
+import os
+from pathlib import Path as _P
+REPO_ROOT = _P(__file__).resolve().parents[3]
+EXTERNAL = _P(os.environ.get("BUGSTAIR_RESEARCH_REPO", REPO_ROOT.parent / "bug-localization-main-final"))
 
-RANKINGS = Path("/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/results/iqloc_author_final_7483/rankings")
-DISP = json.load(open("/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/results/multifile_displacement_analysis/DISPLACED_GT_FILES.json"))
-RECOV = json.load(open("/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/results/multifile_displacement_analysis/RECOVERY_CASE_SUMMARY.json"))
+RANKINGS = REPO_ROOT / "data" / "rankings"
+DISP = json.load(open(str(EXTERNAL / "results" / "multifile_displacement_analysis/DISPLACED_GT_FILES.json")))
+RECOV = json.load(open(str(EXTERNAL / "results" / "multifile_displacement_analysis/RECOVERY_CASE_SUMMARY.json")))
 
 def load_jsonl(path):
     with open(path) as f:
@@ -140,6 +144,6 @@ out = {
     "promoted_vs_stable": {"odds_ratio": OR2, "ci95": [lo2, hi2], "chi2": chi2_2, "fisher_p": fisher_p2},
     "displaced_vs_promoted": {"odds_ratio": OR3, "ci95": [lo3, hi3], "chi2": chi2_3, "fisher_p": fisher_p3},
 }
-with open("/Users/ersahinm/Desktop/buglocalization/BugResearch/evidence/supporting_analyses/data/test_file_contingency.json", "w") as f:
+with open(Path(__file__).resolve().parents[1] / "data" / "test_file_contingency.json", "w") as f:
     json.dump(out, f, indent=2)
 print("\nSaved to test_file_contingency.json")

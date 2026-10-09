@@ -4,10 +4,14 @@ of both ground-truth files, to explain why the trade-off peaks at exactly
 import json
 from pathlib import Path
 from collections import Counter, defaultdict
+import os
+from pathlib import Path as _P
+REPO_ROOT = _P(__file__).resolve().parents[3]
+EXTERNAL = _P(os.environ.get("BUGSTAIR_RESEARCH_REPO", REPO_ROOT.parent / "bug-localization-main-final"))
 
-RANKINGS = Path("/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/results/iqloc_author_final_7483/rankings")
-DISP = json.load(open("/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/results/multifile_displacement_analysis/DISPLACED_GT_FILES.json"))
-RECOV = json.load(open("/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/results/multifile_displacement_analysis/RECOVERY_CASE_SUMMARY.json"))
+RANKINGS = REPO_ROOT / "data" / "rankings"
+DISP = json.load(open(str(EXTERNAL / "results" / "multifile_displacement_analysis/DISPLACED_GT_FILES.json")))
+RECOV = json.load(open(str(EXTERNAL / "results" / "multifile_displacement_analysis/RECOVERY_CASE_SUMMARY.json")))
 
 def load_jsonl(path):
     with open(path) as f:
@@ -83,6 +87,6 @@ n_displaced_is_test = sum(1 for row in mixed_stable_displaced
 print(f"\nOf {len(mixed_stable_displaced)} bugs with exactly one STABLE + one DISPLACED file:")
 print(f"  The DISPLACED file is a test file in {n_displaced_is_test} cases ({100*n_displaced_is_test/len(mixed_stable_displaced):.1f}%)")
 
-with open("/Users/ersahinm/Desktop/buglocalization/BugResearch/evidence/supporting_analyses/data/two_file_outcomes.json", "w") as f:
+with open(Path(__file__).resolve().parents[1] / "data" / "two_file_outcomes.json", "w") as f:
     json.dump({str(k): v for k, v in outcomes.items()}, f, indent=2)
 print("\nSaved to two_file_outcomes.json")

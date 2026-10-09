@@ -6,8 +6,12 @@ in the same order/identity).
 import json, random, statistics
 from pathlib import Path
 from collections import defaultdict
+import os
+from pathlib import Path as _P
+REPO_ROOT = _P(__file__).resolve().parents[3]
+EXTERNAL = _P(os.environ.get("BUGSTAIR_RESEARCH_REPO", REPO_ROOT.parent / "bug-localization-main-final"))
 
-REPO = Path("/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/results/iqloc_author_final_7483/rankings")
+REPO = REPO_ROOT / "data" / "rankings"
 
 def load_jsonl(path):
     with open(path) as f:
@@ -108,6 +112,6 @@ for comp_name, m1, m2 in comparisons:
         }
         print(f"{comp_name} {metric:5}: delta={mean_delta:+.5f} CI=[{lo:+.5f},{hi:+.5f}] excl0={lo>0 or hi<0}  W={W} z={z:.2f}")
 
-out = Path("/Users/ersahinm/Desktop/buglocalization/BugResearch/evidence/supporting_analyses/data/ablation_stats.json")
+out = Path(__file__).resolve().parents[1] / "data" / "ablation_stats.json"
 out.write_text(json.dumps(results, indent=2))
 print(f"\nSaved to {out}")

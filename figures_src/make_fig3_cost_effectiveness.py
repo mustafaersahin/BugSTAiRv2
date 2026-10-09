@@ -53,5 +53,5 @@ for spine in ["top", "right"]:
     ax.spines[spine].set_visible(False)
 
 plt.tight_layout()
-plt.savefig("/Users/ersahinm/Desktop/buglocalization/BugResearch/manuscript/figures/fig3_cost_effectiveness.pdf")
+plt.savefig(str(__import__("pathlib").Path(__file__).resolve().parent / "fig3_cost_effectiveness.pdf"))
 print("done")

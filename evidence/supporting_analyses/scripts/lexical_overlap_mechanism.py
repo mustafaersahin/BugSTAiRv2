@@ -6,11 +6,15 @@ extraction; path tokens are available for all N=7023 bugs)."""
 import json, re
 from pathlib import Path
 from collections import defaultdict
+import os
+from pathlib import Path as _P
+REPO_ROOT = _P(__file__).resolve().parents[3]
+EXTERNAL = _P(os.environ.get("BUGSTAIR_RESEARCH_REPO", REPO_ROOT.parent / "bug-localization-main-final"))
 
-RANKINGS = Path("/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/results/iqloc_author_final_7483/rankings")
-EXT_PATH = "/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/data/iqloc/author_repository/IQLoc/Dataset/Bench4BLExtended.json"
-DISP = json.load(open("/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/results/multifile_displacement_analysis/DISPLACED_GT_FILES.json"))
-RECOV = json.load(open("/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/results/multifile_displacement_analysis/RECOVERY_CASE_SUMMARY.json"))
+RANKINGS = REPO_ROOT / "data" / "rankings"
+EXT_PATH = str(EXTERNAL / "data" / "iqloc/author_repository/IQLoc/Dataset/Bench4BLExtended.json")
+DISP = json.load(open(str(EXTERNAL / "results" / "multifile_displacement_analysis/DISPLACED_GT_FILES.json")))
+RECOV = json.load(open(str(EXTERNAL / "results" / "multifile_displacement_analysis/RECOVERY_CASE_SUMMARY.json")))
 
 def load_jsonl(path):
     with open(path) as f:

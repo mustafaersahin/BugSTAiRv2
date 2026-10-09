@@ -4,8 +4,12 @@ non-knife-edge choice.
 """
 import json
 from pathlib import Path
+import os
+from pathlib import Path as _P
+REPO_ROOT = _P(__file__).resolve().parents[3]
+EXTERNAL = _P(os.environ.get("BUGSTAIR_RESEARCH_REPO", REPO_ROOT.parent / "bug-localization-main-final"))
 
-REPO = Path("/Users/ersahinm/Desktop/buglocalization/bug-localization-main-final/results/iqloc_author_final_7483/rankings")
+REPO = REPO_ROOT / "data" / "rankings"
 
 def load_jsonl(path):
     with open(path) as f:
@@ -56,7 +60,7 @@ for k in k_values:
                   "mrr": sum(mrrs)/m, "trec_map": sum(maps)/m}
     print(f"k={k:4}  Hit@1={h1/m:.4f}  Hit@5={h5/m:.4f}  Hit@10={h10/m:.4f}  MRR={sum(mrrs)/m:.4f}  TREC_MAP={sum(maps)/m:.4f}")
 
-out = Path("/Users/ersahinm/Desktop/buglocalization/BugResearch/evidence/supporting_analyses/data/rrf_k_sensitivity.json")
+out = Path(__file__).resolve().parents[1] / "data" / "rrf_k_sensitivity.json"
 out.write_text(json.dumps(results, indent=2))
 print(f"\nSaved to {out}")
 
