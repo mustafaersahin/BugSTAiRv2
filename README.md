@@ -1,6 +1,6 @@
 # BugLocalization: artifacts for the study on LLM reranking in bug localization
 
-This repository contains the data artifacts, analysis scripts, and numerical traceability materials for the study *Beyond First Hits: LLM Reranking, File Recovery, and Cost in Bug Localization*.
+This repository contains the data artifacts, analysis scripts, and numerical traceability materials for the study *Selective Semantic Reranking for Bug Localization*.
 
 The study compares lexical (BM25), dense, hybrid, and semantically reranked (H+SR) retrieval on 7,023 Java bugs from the Bench4BL family.
 
