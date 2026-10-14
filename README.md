@@ -13,7 +13,7 @@ The study compares lexical (BM25), dense, hybrid, and semantically reranked (H+S
 | `data/h_sr/` | Per-bug H+SR predictions (reranked top 100 of H), execution provenance, a per-instance comparison of H and H+SR, and summary metrics. |
 | `evidence/raw_artifact_recomputation/` | Independent recomputation of all reported metrics and of the file transition, file type, and two file analyses from the raw rankings and predictions (documents, outputs in `data/`, scripts in `scripts/`). |
 | `evidence/supporting_analyses/` | Cohort provenance, metric validation, internal and external (BLUiR-style) baselines, ablation, sensitivity analyses, and cost (documents, `data/`, `scripts/`). |
-| `evidence/selective_reranking/` | Selective reranking experiment (policy that decides per bug whether to apply SR): feature table `data/features.csv`, results, scripts. `evaluate_policy.py`, `robustness.py`, `ci_vs_baselines.py` run directly from `features.csv`; `build_features.py` needs the raw research results and the IQLoc dataset (see below). |
+| `evidence/selective_reranking/` | Selective reranking experiment (policy that decides per bug whether to apply SR): feature table `data/features.csv`, results, scripts. `evaluate_policy.py`, `robustness.py`, `ci_vs_baselines.py`, `policy_checks.py` (simple rules, feature-group ablation, leave-one-ecosystem-out) run directly from `features.csv`; `build_features.py` needs the raw research results and the IQLoc dataset (see below). |
 | `evidence/numerical_traceability.csv` | Traceability of the numbers in the paper to their sources. |
 | `figures_src/` | Sources and scripts for the figures. |
 

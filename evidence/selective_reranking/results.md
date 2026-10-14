@@ -30,3 +30,20 @@ Gradient boosting gives a similar but slightly smaller gain (53% reranked; Hit@1
 
 ## Caveats
 Correlation between predicted and true utility is modest (0.18); the oracle shows much headroom. Labels come from one reranker and one benchmark. Associations only; no causal claim about why a feature predicts benefit.
+
+## Additional checks (policy_checks.py, data/selective_reranking_checks.json)
+
+All use the same 5-fold repository-grouped out-of-fold protocol unless stated. Utility = ΔRR + ΔComplete@10.
+
+| Policy | SR applied | Hit@10 | MRR | GTRecall@10 | Complete@10 |
+|---|---|---|---|---|---|
+| Always H | 0% | 0.7934 | 0.5538 | 0.6470 | 0.5199 |
+| Always H+SR | 100% | 0.8035 | 0.5749 | 0.6434 | 0.5031 |
+| Rule: skip SR if top-1 is named in the report | 68.1% | 0.8132 | 0.5876 | 0.6593 | 0.5230 |
+| Rule: skip SR if top-1 fusion score >= median | 48.7% | 0.8073 | 0.5755 | 0.6563 | 0.5241 |
+| Learned, 17 features (ridge) | 56.0% | 0.8153 | 0.5840 | 0.6648 | 0.5311 |
+| Learned, report+candidate features only | 68.5% | 0.8135 | 0.5876 | 0.6593 | 0.5230 |
+| Learned, without report+candidate features | 47.4% | 0.8098 | 0.5733 | 0.6597 | 0.5284 |
+| Learned, leave-one-ecosystem-out | 55.4% | 0.8150 | 0.5827 | 0.6649 | 0.5318 |
+
+Reading: most of the signal is "does the report already name the top-1 candidate". A simple rule on that feature reaches most of the Hit@10 / MRR gain (its MRR is slightly above the learned model's); the learned model adds mainly Complete@10 and GTRecall@10. Leave-one-ecosystem-out (train on two of Apache / Spring / JBoss+WildFly, test on the third): the policy is above both fixed policies on all four metrics in each ecosystem. The rule "skip if top-1 named" was chosen after inspecting the model, so it is not an independent test. No time-ordered split was run (no reliable submission dates for all bugs).
